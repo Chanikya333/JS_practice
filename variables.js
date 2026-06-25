@@ -36,18 +36,34 @@
 
 
 // Functions 
-function add(a,b){
-    return a+b;
-}
-add();
-console.log(add(2,3));
+// function add(a,b){
+//     return a+b;
+// }
+// add();
+// console.log(add(2,3));
 
-// expression
-const sum= function(a,b){
-    return a+b;
-}
-console.log(sum(3,9));
+// // expression
+// const sum= function(a,b){
+//     return a+b;
+// }
+// console.log(sum(3,9));
 
-// Arrow functions
-const addition=(a,b) => a+b;
-console.log(addition(123,1234));
+// // Arrow functions
+// const addition=(a,b) => a+b;
+// console.log(addition(123,1234));
+
+// Arrays
+let arr=[1,2,43,3,4];
+for(let x=0;x<=3;x++){
+    console.log(arr[x]);
+}
+let names=["ram","raju","rakesh","rishi"];
+for (let a of names){
+    console.log(a);
+}
+let mix=[12,23,4,234,"sai","kiran","suku"];
+for (let n of mix){
+    console.log(n);
+}
+
+let arr= new Array([1,2,3,4,5])
